@@ -24,6 +24,8 @@ Depois de logado o usuário pode configurar seu perfil, fazer e responder pergun
 ![grafico 4](public/src/img/pesquisaSugestões.PNG)
 
 
+
+
 ## roadmap oficial do projeto
 
 
