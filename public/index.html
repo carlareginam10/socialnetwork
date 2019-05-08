@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <title>Authentication</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-auth.js"></script>
+  <script src="src/js/firebase-init.js"></script>  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css">
+  <!-- <link rel="stylesheet" href="../node_modules/bootstrap/compiled/bootstrap.css" > -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
+  <link rel="stylesheet" href="src/css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 my-5">
+        <img class="mx-auto d-block mb-5" src="./src/img/logo.png">
+        <p class="text-center font-weight-bold text-color-white size-2 mb-2"> Dev Life é uma rede social de para
+          programadores profissionais, estudantes e entusiastas. </p>
+        <p class="text-center font-weight-bold text-color-white size-2"> Registre-se, leva apenas um minuto.</p>
+      </div>
+      <div class="col-md-6 text-center my-5">
+        <div class="col text-color-white mb-5 border border-ligth mt-5">
+          <h1 class="mb-3">Login</h1>
+          <h5 class="text-center" id="displayName">Você não está logado</h5>
+          <br>
+          <form>
+            <div class="form-group">
+              <label for="emailInput">E-mail</label>
+              <input type="email" class="form-control" id="emailInput" placeholder="E-mail">
+            </div>
+            <div class="form-group">
+              <label for="passwordInput">Senha</label>
+              <input type="password" class="form-control" id="passwordInput" placeholder="Senha">
+            </div>
+          </form>
+          <button class="btn btn-lg btn-block btn-primary" id="authEmailPassButton">Autenticar</button>
+          <button class="btn btn-lg btn-block btn-info" id="createUserButton">Criar Nova Conta</button>
+          <br>
+          <p class="text-center"><small>-- ou --</small></p>
+          <p class="text-center">
+            <button class="btn btn-lg btn-default  background-btn" id="authGitHubButton"><i class="fa fa-github fa-2x"></i></button>
+            <button class="btn btn-lg btn-danger" id="authGoogleButton"><i class="fa fa-google fa-2x"></i></button>
+          </p>
+        </div>
+      </div>
+       <!-- <script src="/node_modules/popper/dist/popper.js"></script>  -->
+       <!-- <script src="/node_modules/jquery/dist/jquery.js"> </script> 
+       <script src="/node_modules/bootstrap/dist/js/bootstrap"></script>
+        -->
+       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> 
+       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+       <script src="src/js/authentication.js"></script>
+       <script src="src/js/bootbox.min.js"></script>
+       <script src="src/js/lockTextBox.js"></script>
+      <script src="src/js/authentication.js"></script>
+      <script src="src/js/bootbox.min.js"></script>     
+</body>
+</html>
