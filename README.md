@@ -14,10 +14,14 @@ Depois da confirmação, o usuário pode configurar seu perfil, fazer e responde
 ---
 
 ### Personas:
-![Persona 1](src/img/persona01.jpg)
-![Persona 2](src/img/persona02.jpg)
-![Persona 3](src/img/persona03.jpg)
+![Persona 1](public\src\img\persona01.jpg)
+![Persona 2](public\src\img\persona02.jpg)
+![Persona 3](public\src\img\persona03.jpg)
 
-### Pesquisa redes sociais:
+### Pesquisa:
+![grafico 1](public\src\img\pesquisaIdade.PNG)
+![grafico 2](public\src\img\pesquisaInteresse.PNG)
+![grafico 3](public\src\img\pesquisaConteudo.PNG)
+![grafico 4](public\src\img\pesquisaSugestões.PNG)
 
-[Gráfico](https://docs.google.com/forms/d/1A8pxTU8OAWc5e1UaMfCPvcTT1KAk4CIjM0mDKE62oG4/viewanalytics)
+
