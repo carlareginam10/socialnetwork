@@ -1,15 +1,14 @@
-# Rede Social
+# Rede Social Dev Life
 ---
 ### Objetivo
- Criar uma rede social onde o usuário possa, criar um perfil, interagir com outros usuários através de posts e curtidas. Proporcionar ao usuário uma interface mais amigável e fácil de usar.
-Os principais usuários do produto são estudantes e programadores. Descobrimos as necessidades dos usuários conversando com estudantes da área e solicitando que respodessem a uma pesquisa.
-Nosso produto serve para que os usuários possam tirar dúvidas, ficar por dentro das atualizações sobre conteúdo da área, interagir e compartilhar conhecimento com a comunidade de programação. 
+
+ Dev Life é uma rede social direcionada para programadores profissionais, estudantes e entusiastas, com objetivo de facilitar o compartilhamento e acesso à informações da área de tecnologia, onde o usuário possa criar um perfil e interagir com outros usuários através de posts, curtidas, comentários e chat. As necessidades dos potenciais usuários foram apontadas por uma pesquisa com estudantes de tecnologia.  
 
 ---
 ### Como funciona:
+
 Para ter aceso as funcionalidades do produto é necessário realizar um cadastro, que pode ser realizado tanto inserindo um e-mail válido e definindo uma senha, como também fazendo uma autenticação pelo GitHub ou Google.
-Depois é necessário realizar a validação da inscrição, acessando o e-mail que é enviado automaticamente para a caixa de e-mail do usuário.
-Depois da confirmação, o usuário pode configurar seu perfil, fazer e responder perguntas pertinentes a área, postar conteúdo sobre tecnologia (links, vídeos, materiais), compartilhar e curtir perguntas, posts e respostas. O usuário também pode editar e excluir as mensagens que ele mesmo postar.
+Depois de logado o usuário pode configurar seu perfil, fazer e responder perguntas pertinentes a área, postar conteúdo sobre tecnologia (links, vídeos, materiais), compartilhar e curtir perguntas, posts e respostas. O usuário também pode editar e excluir as mensagens que ele mesmo postar.
 
 ---
 
@@ -27,9 +26,16 @@ Depois da confirmação, o usuário pode configurar seu perfil, fazer e responde
 
 ## roadmap oficial do projeto
 
+
+#### versão 3.0.0 (outubro/2019)
+
+Funcionalidades:
+- comentar e compartilhar posts de amigos
+
 #### versão 2.0.0 (previsão agosto/2019)
 
 Funcionalidades:
+- Adicionar informações pessoais na página de perfil
 - chat
 
 #### versão 1.1.0 (em desenvolvimento)
