@@ -24,12 +24,6 @@ Depois de logado o usuário pode configurar seu perfil, fazer e responder pergun
 ![grafico 4](public/src/img/pesquisaSugestões.PNG)
 
 
-
-
-
-
-
-
 ## roadmap oficial do projeto
 
 
@@ -64,6 +58,7 @@ Funcionalidades implementadas:
 - Vizualizar os like dados;
 - Fechar e abrir o navegador e ter a autenticação persistente;
 - Deslogar da rede.
+- App: https://rede-social-3220b.firebaseapp.com/
 
 A validação dos dados no momento do registro garante que o os dados cadastrados correspondam aos quesitos de formatação e a senha está oculta. 
 
