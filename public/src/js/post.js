@@ -1,4 +1,5 @@
 let USER_ID = window.location.search.match(/\?id=(.*)/)[1];
+console.log(USER_ID, 'o que tem em user id')
 
 $(document).ready(function() {
     $('#js-control-textarea').val('');
@@ -11,6 +12,7 @@ firebase.database().ref('Post/' + USER_ID).once('value').then(function(snapshot)
         let childData = childSnapshot.val();
         createPost(childData, childKey);
         getFunctions(childData, childKey);
+
     });
 });
 

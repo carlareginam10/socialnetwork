@@ -19,7 +19,7 @@ Depois de logado o usuário pode configurar seu perfil, fazer e responder pergun
 
 ### Pesquisa:
 ![grafico 1](public/src/img/pesquisaIdade.PNG)
-![grafico 2](public/src/img/pesquisaInteresse.PNG)
+![grafico 2](public/src/img/pesquisaInteresse.PNG) 
 ![grafico 3](public/src/img/pesquisaConteudo.PNG)
 ![grafico 4](public/src/img/pesquisaSugestões.PNG)
 
@@ -49,7 +49,7 @@ Funcionalidades:
 Funcionalidades implementadas:
 - Regristro de conta com email e senha ou com Google ou GitHub;
 - Login com email e senha ou com Google ou GitHub;
-- Visualizar o feed com o nome do usuário para saber se está logado (em qual conta); 
+- Visualizar o feed do usuário logado; 
 - Publicar posts sem número de caracteres definidos; 
 - Escolher a privacidade do post (público ou privado)
 - Editar post;
